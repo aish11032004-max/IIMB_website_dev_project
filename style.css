@@ -29,7 +29,20 @@ margin-bottom:10px;
 
 .cyan{
 color:#00ffff;
-text-decoration:none;
+}
+
+/* underline only links */
+a.cyan{
+text-decoration: underline;
+text-decoration-color:#00ffff;
+text-underline-offset:4px;
+transition:0.2s ease;
+}
+
+/* hover effect */
+a.cyan:hover{
+color:white;
+text-decoration-color:white;
 }
 
 .section-title{
